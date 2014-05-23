@@ -1,0 +1,6772 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ImageHD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5c774bc729cc9a047b3d0bb184cb10a8, type: 2}
+  sprites:
+  - name: Default
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 5
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1064
+      y: 9
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button
+    outer:
+      serializedVersion: 2
+      x: 686
+      y: 390
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 690
+      y: 394
+      width: 9
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Gray
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 605
+      width: 64
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 605
+      width: 64
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: StageButtonBG
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 33
+      width: 66
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 53
+      width: 26
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Check
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 431
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 431
+      width: 48
+      height: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Back_Pink
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 706
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 706
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Panel_White
+    outer:
+      serializedVersion: 2
+      x: 1998
+      y: 1051
+      width: 44
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 2011
+      y: 1061
+      width: 17
+      height: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Advence_Blue
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 792
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 792
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Advence_Pink
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 878
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 878
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Gray_Round
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 45
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 65
+      width: 3
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Close
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 893
+      width: 66
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 893
+      width: 66
+      height: 61
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Advence_Green
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 964
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 964
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Box_Gradation
+    outer:
+      serializedVersion: 2
+      x: 668
+      y: 390
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 672
+      y: 394
+      width: 9
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Box
+    outer:
+      serializedVersion: 2
+      x: 373
+      y: 155
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 375
+      y: 157
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 93
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 113
+      width: 3
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_Shadow
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 141
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 161
+      width: 3
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Star_On
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 400
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 400
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Icon_Star_Off
+    outer:
+      serializedVersion: 2
+      x: 1980
+      y: 1009
+      width: 40
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1980
+      y: 1009
+      width: 40
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Advence_Darkgrey
+    outer:
+      serializedVersion: 2
+      x: 608
+      y: 20
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 20
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_InterplayPriority
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 166
+      width: 33
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 177
+      width: 3
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_InterplayInfo
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 158
+      width: 25
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 169
+      width: 3
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Orange_RightArrow
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 545
+      width: 41
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 545
+      width: 41
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_Blue
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 700
+      width: 10
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 705
+      width: 2
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Grey_3sliced
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 762
+      width: 39
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1143
+      y: 762
+      width: 4
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_Out_Darkgrey
+    outer:
+      serializedVersion: 2
+      x: 424
+      y: 635
+      width: 4
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 426
+      y: 637
+      width: 0
+      height: 7
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Darkgrey_3sliced
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 571
+      width: 34
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 974
+      y: 571
+      width: 2
+      height: 63
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Orange_LeftArrow
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 826
+      width: 41
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 826
+      width: 41
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Blue_3sliced
+    outer:
+      serializedVersion: 2
+      x: 959
+      y: 639
+      width: 34
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 655
+      width: 2
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Orange_Round_Shadow
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 189
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1188
+      y: 207
+      width: 6
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Gray_Round_InnerShadow
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 237
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1189
+      y: 256
+      width: 4
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Listbox_Out_Blue
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 666
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1267
+      y: 679
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Listbox_Out_Grey
+    outer:
+      serializedVersion: 2
+      x: 2021
+      y: 1025
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 2032
+      y: 1036
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Listbox_Out_Green
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 635
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1267
+      y: 648
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Listbox_Out_Orange
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 697
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1267
+      y: 710
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ListboxItem_Darkgrey
+    outer:
+      serializedVersion: 2
+      x: 537
+      y: 1
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 544
+      y: 8
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Board_White
+    outer:
+      serializedVersion: 2
+      x: 1647
+      y: 804
+      width: 37
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 1657
+      y: 812
+      width: 17
+      height: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ListboxItem_White
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 390
+      width: 20
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 397
+      width: 6
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_White
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 682
+      width: 10
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 423
+      y: 688
+      width: 0
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_Out_Grey
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 448
+      width: 20
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 450
+      width: 16
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Advence_Orange
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 534
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 534
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Green_Round_Shadow
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 285
+      width: 46
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1188
+      y: 303
+      width: 6
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Marking_Behavior
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 259
+      width: 33
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 259
+      width: 33
+      height: 40
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GrayBar_Behavior
+    outer:
+      serializedVersion: 2
+      x: 410
+      y: 445
+      width: 14
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 415
+      y: 449
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Background_Behavior
+    outer:
+      serializedVersion: 2
+      x: 394
+      y: 1
+      width: 20
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 8
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Timeline_Behavior
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 669
+      width: 10
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 673
+      width: 2
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ActionGrip_Behavior
+    outer:
+      serializedVersion: 2
+      x: 964
+      y: 785
+      width: 25
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 964
+      y: 785
+      width: 25
+      height: 60
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Actionblock_Behavior
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 509
+      width: 18
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 819
+      y: 518
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: ActionAdd_Behavior
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 493
+      width: 86
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 649
+      y: 493
+      width: 40
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: NameBox_Behavior
+    outer:
+      serializedVersion: 2
+      x: 611
+      y: 295
+      width: 33
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 627
+      y: 309
+      width: 1
+      height: 1
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteSmallRound
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 268
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1267
+      y: 280
+      width: 1
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_Green
+    outer:
+      serializedVersion: 2
+      x: 395
+      y: 445
+      width: 14
+      height: 12
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 449
+      width: 4
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GrayLine
+    outer:
+      serializedVersion: 2
+      x: 735
+      y: 596
+      width: 12
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 738
+      y: 597
+      width: 6
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteColor
+    outer:
+      serializedVersion: 2
+      x: 399
+      y: 696
+      width: 4
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 400
+      y: 697
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Orange_UpArrow
+    outer:
+      serializedVersion: 2
+      x: 1928
+      y: 1015
+      width: 51
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1928
+      y: 1015
+      width: 51
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Orange_DownArrow
+    outer:
+      serializedVersion: 2
+      x: 1876
+      y: 1015
+      width: 51
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1876
+      y: 1015
+      width: 51
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Quiz_Answer
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 410
+      width: 64
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 430
+      width: 24
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Quiz_BG
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 704
+      width: 39
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 1136
+      y: 714
+      width: 19
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Edit
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 189
+      width: 59
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 670
+      y: 189
+      width: 59
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Rect
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 554
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1227
+      y: 562
+      width: 16
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Yellow_Left
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 384
+      width: 32
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 384
+      width: 32
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Yellow_Right
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 317
+      width: 32
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 317
+      width: 32
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Back_Balue
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 620
+      width: 80
+      height: 85
+    inner:
+      serializedVersion: 2
+      x: 800
+      y: 620
+      width: 8
+      height: 85
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: loading0
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 333
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 333
+      width: 48
+      height: 48
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_Cavars
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 204
+      width: 90
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 449
+      y: 224
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_UIbox
+    outer:
+      serializedVersion: 2
+      x: 652
+      y: 297
+      width: 90
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 672
+      y: 317
+      width: 50
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_Eraser
+    outer:
+      serializedVersion: 2
+      x: 1831
+      y: 1005
+      width: 44
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 1831
+      y: 1005
+      width: 44
+      height: 44
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_Paint
+    outer:
+      serializedVersion: 2
+      x: 1433
+      y: 840
+      width: 51
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1433
+      y: 840
+      width: 51
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: WhiteCircle
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 728
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1254
+      y: 728
+      width: 0
+      height: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_Brush
+    outer:
+      serializedVersion: 2
+      x: 955
+      y: 865
+      width: 36
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 955
+      y: 865
+      width: 36
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: icon_Redo
+    outer:
+      serializedVersion: 2
+      x: 1565
+      y: 898
+      width: 57
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1565
+      y: 898
+      width: 57
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_Bar
+    outer:
+      serializedVersion: 2
+      x: 1601
+      y: 1073
+      width: 156
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 1601
+      y: 1073
+      width: 156
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_ButtonBG
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 382
+      width: 48
+      height: 48
+    inner:
+      serializedVersion: 2
+      x: 1175
+      y: 389
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_ButtonOrange
+    outer:
+      serializedVersion: 2
+      x: 1740
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1760
+      y: 975
+      width: 10
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Painter_ButtonYellow
+    outer:
+      serializedVersion: 2
+      x: 1434
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1454
+      y: 975
+      width: 10
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Pallet
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 324
+      width: 128
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 324
+      width: 128
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: AlphaBackground
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 1
+      width: 16
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 16
+      width: -14
+      height: -14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_02
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 597
+      width: 39
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1140
+      y: 611
+      width: 11
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_01
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 544
+      width: 39
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1140
+      y: 558
+      width: 11
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_03
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 670
+      width: 64
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 1026
+      y: 670
+      width: 0
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_Play
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 804
+      width: 64
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 804
+      width: 64
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Save_Green
+    outer:
+      serializedVersion: 2
+      x: 1623
+      y: 900
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1623
+      y: 900
+      width: 54
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Exit
+    outer:
+      serializedVersion: 2
+      x: 1678
+      y: 900
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1678
+      y: 900
+      width: 54
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_Stop
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 871
+      width: 64
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 871
+      width: 64
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_White_Add
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 345
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 345
+      width: 63
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_White_Ring
+    outer:
+      serializedVersion: 2
+      x: 481
+      y: 2
+      width: 27
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 492
+      y: 13
+      width: 5
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_White
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 233
+      width: 27
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 969
+      y: 244
+      width: 5
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Advance_Up
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 711
+      width: 62
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 711
+      width: 62
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Gray_Down
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 534
+      width: 62
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 534
+      width: 62
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_Yellow
+    outer:
+      serializedVersion: 2
+      x: 578
+      y: 1
+      width: 11
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 582
+      y: 6
+      width: 2
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_Pink
+    outer:
+      serializedVersion: 2
+      x: 554
+      y: 1
+      width: 11
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 558
+      y: 6
+      width: 3
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Plus
+    outer:
+      serializedVersion: 2
+      x: 723
+      y: 518
+      width: 25
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 723
+      y: 518
+      width: 25
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Gray_Up
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 593
+      width: 62
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 593
+      width: 62
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Or
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 149
+      width: 62
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 149
+      width: 62
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Yellow
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 168
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 184
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Copy
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 993
+      width: 103
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 907
+      y: 993
+      width: 57
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_RightGreen
+    outer:
+      serializedVersion: 2
+      x: 566
+      y: 1
+      width: 11
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 570
+      y: 5
+      width: 3
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Pink
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 242
+      width: 149
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 536
+      y: 258
+      width: 117
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Delete
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 936
+      width: 103
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 907
+      y: 936
+      width: 71
+      height: 56
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Scroll_In_Sky
+    outer:
+      serializedVersion: 2
+      x: 415
+      y: 5
+      width: 11
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 9
+      width: 3
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_White_Shadow
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 408
+      width: 111
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 664
+      y: 408
+      width: 37
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Advance_Down
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 652
+      width: 62
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 652
+      width: 62
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Sky
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 189
+      width: 149
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 536
+      y: 205
+      width: 117
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_And
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 83
+      width: 62
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 83
+      width: 62
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Mint
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 107
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 123
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_DeepOrange
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 290
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 306
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Creem
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 46
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 62
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Blue
+    outer:
+      serializedVersion: 2
+      x: 1327
+      y: 894
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1343
+      y: 910
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_HotPink
+    outer:
+      serializedVersion: 2
+      x: 689
+      y: 45
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 705
+      y: 61
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_IndiOrange
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 372
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 388
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Copy_Square
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 17
+      width: 62
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 37
+      width: 20
+      height: 21
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_White_RoundNemo
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 474
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1015
+      y: 494
+      width: 21
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_BabyPink
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 311
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 327
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Puple
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 250
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 266
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_DeepSky
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 189
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 205
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_WhiteOrange
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 128
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 144
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_UltraMarine
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 67
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 83
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_WhiteGreen
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 6
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 846
+      y: 22
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_IndiMint
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 473
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 489
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_WhiteUltraMarine
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 412
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 428
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_WhitePuple
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 351
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 367
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_White_Nemo
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 539
+      width: 63
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 1007
+      y: 550
+      width: 38
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_White_Plus
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 215
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 215
+      width: 63
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_DeepSky
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 16
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 27
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_WhiteUltraMarine
+    outer:
+      serializedVersion: 2
+      x: 1313
+      y: 762
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1324
+      y: 773
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_DeepGreen
+    outer:
+      serializedVersion: 2
+      x: 1285
+      y: 762
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1296
+      y: 773
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_WhitePuple
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 44
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 55
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_BabyPink
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 492
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 503
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_DeepGreen
+    outer:
+      serializedVersion: 2
+      x: 1387
+      y: 895
+      width: 59
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 1403
+      y: 911
+      width: 23
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_UltraMarine
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 520
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 531
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_WhiteOrange
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 100
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 111
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_IndiMint
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 128
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 139
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_HotPink
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 156
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 167
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Mint
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 184
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 195
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_WhiteGreen
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 212
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 223
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Cream
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 762
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1380
+      y: 773
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_White_Empty
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 716
+      width: 56
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 386
+      y: 731
+      width: 26
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_White
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 777
+      width: 56
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 386
+      y: 792
+      width: 26
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_SkyLine
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 240
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 251
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_GreenLine
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 72
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 83
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Gray_Green
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 296
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 307
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_DeepGray_Green
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 436
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 447
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_DeepGray_Sky
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 464
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 475
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_PupleLine
+    outer:
+      serializedVersion: 2
+      x: 1341
+      y: 762
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1352
+      y: 773
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Gray_Sky
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 324
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 335
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Puple
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 352
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 363
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_Gray_Orange
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 380
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 391
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Listbox_Out_DeepGray_Orange
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 408
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 419
+      width: 5
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: BG_Menu_Frame
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 433
+      width: 60
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 860
+      y: 463
+      width: 0
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_White_Empty_V
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 629
+      width: 5
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 629
+      width: 5
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_White_Empty_H
+    outer:
+      serializedVersion: 2
+      x: 99
+      y: 3
+      width: 17
+      height: 5
+    inner:
+      serializedVersion: 2
+      x: 99
+      y: 3
+      width: 17
+      height: 5
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Frame_White_Empty_R
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 619
+      width: 9
+      height: 9
+    inner:
+      serializedVersion: 2
+      x: 418
+      y: 619
+      width: 9
+      height: 9
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Green
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 229
+      width: 59
+      height: 60
+    inner:
+      serializedVersion: 2
+      x: 1076
+      y: 245
+      width: 23
+      height: 23
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Off
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 516
+      width: 34
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 516
+      width: 34
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_On
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 441
+      width: 37
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 441
+      width: 37
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_Delete
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 737
+      width: 64
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 737
+      width: 64
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Round_Add
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 938
+      width: 64
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 938
+      width: 64
+      height: 66
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Plus Orange
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 827
+      width: 62
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 1060
+      y: 827
+      width: 62
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Plus Blue
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 280
+      width: 63
+      height: 64
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 280
+      width: 63
+      height: 64
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Link_Sprite
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 533
+      width: 47
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 533
+      width: 47
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Condition_BG
+    outer:
+      serializedVersion: 2
+      x: 1791
+      y: 957
+      width: 52
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1807
+      y: 969
+      width: 20
+      height: 20
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Line_Horizontal
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 696
+      width: 20
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 372
+      y: 697
+      width: 18
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Line_Vertical
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 82
+      width: 4
+      height: 20
+    inner:
+      serializedVersion: 2
+      x: 166
+      y: 83
+      width: 2
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_ConditionLink
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 72
+      width: 29
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 72
+      width: 29
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Okay
+    outer:
+      serializedVersion: 2
+      x: 1506
+      y: 896
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1506
+      y: 896
+      width: 58
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Cancle
+    outer:
+      serializedVersion: 2
+      x: 1447
+      y: 896
+      width: 58
+      height: 58
+    inner:
+      serializedVersion: 2
+      x: 1447
+      y: 896
+      width: 58
+      height: 58
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Done
+    outer:
+      serializedVersion: 2
+      x: 1307
+      y: 957
+      width: 63
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1307
+      y: 957
+      width: 63
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Sub
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 279
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 279
+      width: 38
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Arrow_Down
+    outer:
+      serializedVersion: 2
+      x: 692
+      y: 107
+      width: 51
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 692
+      y: 107
+      width: 51
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Arrow_Up
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 1
+      width: 51
+      height: 26
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 1
+      width: 51
+      height: 26
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Checkbox_Unselected_White
+    outer:
+      serializedVersion: 2
+      x: 358
+      y: 444
+      width: 15
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 363
+      y: 449
+      width: 4
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Checkbox_Selected_Gray
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 531
+      width: 14
+      height: 13
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 536
+      width: 4
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Scroll_In_DeepGray
+    outer:
+      serializedVersion: 2
+      x: 579
+      y: 716
+      width: 11
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 583
+      y: 720
+      width: 2
+      height: 6
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Scroll_Out_White
+    outer:
+      serializedVersion: 2
+      x: 165
+      y: 73
+      width: 5
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 167
+      y: 76
+      width: 1
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_ConditionEditBG
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 98
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 25
+      y: 29
+      width: 43
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Dir_Blue
+    outer:
+      serializedVersion: 2
+      x: 1193
+      y: 898
+      width: 66
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1210
+      y: 922
+      width: 23
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Dir_Purple
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 770
+      width: 65
+      height: 56
+    inner:
+      serializedVersion: 2
+      x: 1077
+      y: 794
+      width: 22
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Dir_Orange
+    outer:
+      serializedVersion: 2
+      x: 1260
+      y: 899
+      width: 66
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 1277
+      y: 923
+      width: 23
+      height: 3
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Rect_Add
+    outer:
+      serializedVersion: 2
+      x: 1371
+      y: 957
+      width: 62
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1371
+      y: 957
+      width: 62
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Rect_Minus
+    outer:
+      serializedVersion: 2
+      x: 689
+      y: 1
+      width: 59
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 689
+      y: 1
+      width: 59
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Rect_Purple
+    outer:
+      serializedVersion: 2
+      x: 1844
+      y: 957
+      width: 52
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1859
+      y: 969
+      width: 22
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Rect_Orange
+    outer:
+      serializedVersion: 2
+      x: 1897
+      y: 957
+      width: 52
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1912
+      y: 969
+      width: 22
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Rect_Blue
+    outer:
+      serializedVersion: 2
+      x: 1950
+      y: 957
+      width: 52
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1965
+      y: 969
+      width: 22
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_TimeStamp_White
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 318
+      width: 38
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1144
+      y: 327
+      width: 2
+      height: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Line_Horizontal_White
+    outer:
+      serializedVersion: 2
+      x: 382
+      y: 155
+      width: 8
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 385
+      y: 158
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Sprite_Line_Vertical_Darkgray
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 155
+      width: 7
+      height: 8
+    inner:
+      serializedVersion: 2
+      x: 394
+      y: 158
+      width: 1
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Gray_No
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 650
+      width: 40
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 650
+      width: 40
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Green_No
+    outer:
+      serializedVersion: 2
+      x: 2003
+      y: 955
+      width: 43
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 2003
+      y: 955
+      width: 43
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Blue_No
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 790
+      width: 43
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 790
+      width: 43
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Purple_No
+    outer:
+      serializedVersion: 2
+      x: 1263
+      y: 790
+      width: 43
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1263
+      y: 790
+      width: 43
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Orange_No
+    outer:
+      serializedVersion: 2
+      x: 1353
+      y: 792
+      width: 43
+      height: 47
+    inner:
+      serializedVersion: 2
+      x: 1353
+      y: 792
+      width: 43
+      height: 47
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Green_Yes
+    outer:
+      serializedVersion: 2
+      x: 1485
+      y: 793
+      width: 43
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1485
+      y: 793
+      width: 43
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Orange_Yes
+    outer:
+      serializedVersion: 2
+      x: 1441
+      y: 793
+      width: 43
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1441
+      y: 793
+      width: 43
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Blue_Yes
+    outer:
+      serializedVersion: 2
+      x: 1397
+      y: 793
+      width: 43
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1397
+      y: 793
+      width: 43
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Purple_Yes
+    outer:
+      serializedVersion: 2
+      x: 1529
+      y: 793
+      width: 43
+      height: 46
+    inner:
+      serializedVersion: 2
+      x: 1529
+      y: 793
+      width: 43
+      height: 46
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Gray_Yes
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 494
+      width: 40
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 494
+      width: 40
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: IP_Button_Gray
+    outer:
+      serializedVersion: 2
+      x: 650
+      y: 389
+      width: 17
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 657
+      y: 396
+      width: 3
+      height: 4
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_SiCiLogo
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 838
+      width: 428
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 838
+      width: 428
+      height: 255
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_Button_Quit
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 1012
+      width: 319
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 1012
+      width: 319
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_Button_SiCiWeb
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 848
+      width: 319
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 848
+      width: 319
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_Button_MyProjects
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 930
+      width: 319
+      height: 81
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 930
+      width: 319
+      height: 81
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_Button_Option
+    outer:
+      serializedVersion: 2
+      x: 1797
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1797
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_TopText
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 444
+      width: 357
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 444
+      width: 357
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_SiCiWeb
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 492
+      width: 206
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 492
+      width: 206
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Button_Back
+    outer:
+      serializedVersion: 2
+      x: 1589
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1589
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ProjectDesign_TopText
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 612
+      width: 417
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 612
+      width: 417
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Sprite_Plus
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 359
+      width: 85
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 359
+      width: 85
+      height: 84
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_Play
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 773
+      width: 72
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 773
+      width: 72
+      height: 72
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_Edit
+    outer:
+      serializedVersion: 2
+      x: 1641
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1641
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_Copy
+    outer:
+      serializedVersion: 2
+      x: 1537
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1537
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_Delete
+    outer:
+      serializedVersion: 2
+      x: 1485
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1485
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _MyProjects_Button_Share
+    outer:
+      serializedVersion: 2
+      x: 1745
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1745
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Background_SkyBlue
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 90
+      width: 61
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 110
+      width: 21
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Background_Green
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 312
+      width: 61
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 332
+      width: 21
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Background_Grey
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 201
+      width: 61
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 769
+      y: 221
+      width: 21
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Button_OK
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 738
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 738
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Arrow_Right
+    outer:
+      serializedVersion: 2
+      x: 1999
+      y: 900
+      width: 45
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 1999
+      y: 900
+      width: 45
+      height: 54
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Arrow_Up
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 2
+      width: 54
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 2
+      width: 54
+      height: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Dialog_Background_BlackHalfRound
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 240
+      width: 38
+      height: 38
+    inner:
+      serializedVersion: 2
+      x: 1140
+      y: 249
+      width: 10
+      height: 11
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_Background_GreyShadow
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 129
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 141
+      width: 12
+      height: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_Background_WhiteShadow
+    outer:
+      serializedVersion: 2
+      x: 1610
+      y: 803
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1622
+      y: 815
+      width: 12
+      height: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Button_Cancel
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 25
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 25
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_Background_Grey
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 41
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 51
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_Background_White
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 10
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1229
+      y: 20
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_RoundEdge_White
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 759
+      width: 30
+      height: 30
+    inner:
+      serializedVersion: 2
+      x: 1264
+      y: 769
+      width: 10
+      height: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Scroll_In_Grey
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 658
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 422
+      y: 662
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Scroll_Out_White
+    outer:
+      serializedVersion: 2
+      x: 392
+      y: 696
+      width: 6
+      height: 4
+    inner:
+      serializedVersion: 2
+      x: 394
+      y: 697
+      width: 2
+      height: 2
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Scroll_Out_Black
+    outer:
+      serializedVersion: 2
+      x: 418
+      y: 647
+      width: 10
+      height: 10
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 648
+      width: 8
+      height: 8
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_ColorPicker
+    outer:
+      serializedVersion: 2
+      x: 704
+      y: 390
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 704
+      y: 390
+      width: 17
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_RotateLeft
+    outer:
+      serializedVersion: 2
+      x: 1946
+      y: 902
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1946
+      y: 902
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_Undo
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 840
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 840
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_Canvas
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 635
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 635
+      width: 67
+      height: 67
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_RotateRight
+    outer:
+      serializedVersion: 2
+      x: 1786
+      y: 902
+      width: 53
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1786
+      y: 902
+      width: 53
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_OpenFile
+    outer:
+      serializedVersion: 2
+      x: 1327
+      y: 840
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1327
+      y: 840
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_Reverse
+    outer:
+      serializedVersion: 2
+      x: 1380
+      y: 840
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1380
+      y: 840
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_Background_WhiteShadowSquare
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 360
+      width: 40
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1136
+      y: 370
+      width: 20
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_TopText
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 528
+      width: 382
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 528
+      width: 382
+      height: 83
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 846
+      width: 63
+      height: 89
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 846
+      width: 59
+      height: 89
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Play
+    outer:
+      serializedVersion: 2
+      x: 1953
+      y: 842
+      width: 51
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1953
+      y: 842
+      width: 51
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_ActorList
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 636
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 636
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Directing
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 703
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 891
+      y: 703
+      width: 69
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Stop
+    outer:
+      serializedVersion: 2
+      x: 1587
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1587
+      y: 955
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Exit
+    outer:
+      serializedVersion: 2
+      x: 1638
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1638
+      y: 955
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Pause
+    outer:
+      serializedVersion: 2
+      x: 1485
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1485
+      y: 955
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_AddActor
+    outer:
+      serializedVersion: 2
+      x: 358
+      y: 458
+      width: 69
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 358
+      y: 458
+      width: 69
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SceneDesign_Button_Save
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 955
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Directing_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 828
+      width: 60
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 834
+      width: 47
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Mobius_YGBI_0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1094
+      width: 2047
+      height: 954
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1094
+      width: 2047
+      height: 954
+    paddingLeft: 0
+    paddingRight: .000488519785
+    paddingTop: 0
+    paddingBottom: 1.14675057
+  - name: _ProjectDesign_Button_DetailInfo
+    outer:
+      serializedVersion: 2
+      x: 1685
+      y: 804
+      width: 35
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 1685
+      y: 804
+      width: 35
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 679
+      y: 737
+      width: 61
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 686
+      y: 741
+      width: 47
+      height: 100
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundInterface
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 367
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 377
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundUser
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 568
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 578
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundRobot
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 434
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 444
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundVariable
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 300
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 310
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundEffect
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 233
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 243
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundDevice
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 166
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 176
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundCharacter
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 99
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 109
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_TabOutLine
+    outer:
+      serializedVersion: 2
+      x: 1145
+      y: 959
+      width: 80
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 1155
+      y: 959
+      width: 20
+      height: 45
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_TabIn
+    outer:
+      serializedVersion: 2
+      x: 670
+      y: 253
+      width: 76
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 677
+      y: 253
+      width: 21
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffCharater
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 201
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 201
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffInterface
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 233
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 233
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnEffect
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 265
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 265
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffRobot
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 297
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 297
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnInterface.psd
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 329
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 329
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnCharater
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 361
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 361
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffVariable
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 393
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 393
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnDevice
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 425
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 425
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffDevice
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 457
+      width: 31
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 457
+      width: 31
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOffEffect
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 137
+      width: 30
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 137
+      width: 30
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnRobot
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 169
+      width: 30
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 169
+      width: 30
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_IconOnVariable
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 105
+      width: 30
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 105
+      width: 30
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_ItemBackgroundCommon
+    outer:
+      serializedVersion: 2
+      x: 891
+      y: 501
+      width: 66
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 903
+      y: 511
+      width: 42
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_TabboxOut
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 955
+      width: 84
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1070
+      y: 965
+      width: 64
+      height: 29
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_TabboxIn
+    outer:
+      serializedVersion: 2
+      x: 1226
+      y: 959
+      width: 80
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 1236
+      y: 969
+      width: 60
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_BackgroundGray
+    outer:
+      serializedVersion: 2
+      x: 692
+      y: 134
+      width: 54
+      height: 54
+    inner:
+      serializedVersion: 2
+      x: 700
+      y: 142
+      width: 38
+      height: 38
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddActor_Sprite_BackgroundWhiteLine
+    outer:
+      serializedVersion: 2
+      x: 1060
+      y: 892
+      width: 65
+      height: 62
+    inner:
+      serializedVersion: 2
+      x: 1074
+      y: 906
+      width: 37
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddSound_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 939
+      width: 60
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 959
+      width: 20
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddInterface_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 496
+      width: 60
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 516
+      width: 20
+      height: 69
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AddCharacter_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 606
+      width: 60
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 626
+      width: 20
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_SiCiLogo_Text
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 1050
+      width: 409
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 749
+      y: 1050
+      width: 409
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_VariableUnSelect
+    outer:
+      serializedVersion: 2
+      x: 1818
+      y: 1051
+      width: 59
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1829
+      y: 1051
+      width: 6
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_DeviceUnselect
+    outer:
+      serializedVersion: 2
+      x: 1878
+      y: 1051
+      width: 59
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1889
+      y: 1051
+      width: 6
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_RobotUnselect
+    outer:
+      serializedVersion: 2
+      x: 1758
+      y: 1051
+      width: 59
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1769
+      y: 1051
+      width: 6
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_EffectUnselect
+    outer:
+      serializedVersion: 2
+      x: 1292
+      y: 1008
+      width: 59
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1303
+      y: 1008
+      width: 6
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_CharacterUnselect
+    outer:
+      serializedVersion: 2
+      x: 1938
+      y: 1052
+      width: 59
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1949
+      y: 1052
+      width: 6
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_InterfaceUnselect
+    outer:
+      serializedVersion: 2
+      x: 1232
+      y: 1008
+      width: 59
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1243
+      y: 1008
+      width: 6
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_InterfaceSelect
+    outer:
+      serializedVersion: 2
+      x: 1466
+      y: 1007
+      width: 56
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1477
+      y: 1007
+      width: 3
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_VariableSelect
+    outer:
+      serializedVersion: 2
+      x: 1523
+      y: 1007
+      width: 56
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1534
+      y: 1007
+      width: 3
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_RobotSelect
+    outer:
+      serializedVersion: 2
+      x: 1352
+      y: 1007
+      width: 56
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1363
+      y: 1007
+      width: 3
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_EffectSelect
+    outer:
+      serializedVersion: 2
+      x: 1409
+      y: 1007
+      width: 56
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1420
+      y: 1007
+      width: 3
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_CharacterSelect
+    outer:
+      serializedVersion: 2
+      x: 1716
+      y: 1008
+      width: 57
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1727
+      y: 1008
+      width: 4
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_DeviceSelect
+    outer:
+      serializedVersion: 2
+      x: 1774
+      y: 1008
+      width: 56
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1785
+      y: 1008
+      width: 3
+      height: 41
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_RobotItem
+    outer:
+      serializedVersion: 2
+      x: 1780
+      y: 797
+      width: 28
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1791
+      y: 808
+      width: 6
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_DeviceItem
+    outer:
+      serializedVersion: 2
+      x: 1809
+      y: 797
+      width: 28
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1820
+      y: 808
+      width: 6
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_InterfaceItem
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 671
+      width: 28
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1230
+      y: 682
+      width: 6
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_VariableItem
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 629
+      width: 28
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1230
+      y: 640
+      width: 6
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_EffectItem
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 713
+      width: 28
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1230
+      y: 724
+      width: 6
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorList_Button_CharacterItem
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 587
+      width: 27
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1230
+      y: 598
+      width: 5
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 830
+      y: 717
+      width: 60
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 850
+      y: 737
+      width: 20
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Button_Property
+    outer:
+      serializedVersion: 2
+      x: 1159
+      y: 1051
+      width: 155
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1159
+      y: 1051
+      width: 155
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Button_ScaleDown
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 687
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 687
+      width: 50
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Button_Reset
+    outer:
+      serializedVersion: 2
+      x: 1689
+      y: 955
+      width: 50
+      height: 49
+    inner:
+      serializedVersion: 2
+      x: 1689
+      y: 955
+      width: 50
+      height: 49
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Button_ScaleUp
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 585
+      width: 49
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 585
+      width: 49
+      height: 50
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Checkbox_Background
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 99
+      width: 29
+      height: 29
+    inner:
+      serializedVersion: 2
+      x: 966
+      y: 105
+      width: 14
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Checkbox_Checkmark
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 715
+      width: 16
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 715
+      width: 16
+      height: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActorEditor_Sprite_BehaviorItemBackground
+    outer:
+      serializedVersion: 2
+      x: 1901
+      y: 842
+      width: 51
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1909
+      y: 850
+      width: 35
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _FileDialog_Icon_ParentFolder
+    outer:
+      serializedVersion: 2
+      x: 1628
+      y: 1050
+      width: 26
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 1628
+      y: 1050
+      width: 26
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _FileDialog_Icon_FileSelected
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 192
+      width: 18
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 192
+      width: 18
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _FileDialog_Icon_FileUnselected
+    outer:
+      serializedVersion: 2
+      x: 730
+      y: 217
+      width: 18
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 730
+      y: 217
+      width: 18
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _FileDialog_Icon_Folder
+    outer:
+      serializedVersion: 2
+      x: 1601
+      y: 1050
+      width: 26
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 1601
+      y: 1050
+      width: 26
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SiCiWeb_Sprite_Title
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 80
+      width: 250
+      height: 70
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 80
+      width: 250
+      height: 70
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _SiCiWeb_Button_GotoMyProject
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 544
+      width: 206
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 544
+      width: 206
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Title_Button_Credit
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 203
+      width: 37
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 203
+      width: 37
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviarEditor_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 423
+      width: 61
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 765
+      y: 440
+      width: 28
+      height: 73
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviarEditor_Button_Track
+    outer:
+      serializedVersion: 2
+      x: 1514
+      y: 1051
+      width: 86
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 1534
+      y: 1051
+      width: 46
+      height: 42
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Button_Action
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 480
+      width: 46
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1181
+      y: 480
+      width: 20
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviarEditor_Button_ActionArrow
+    outer:
+      serializedVersion: 2
+      x: 1721
+      y: 796
+      width: 28
+      height: 43
+    inner:
+      serializedVersion: 2
+      x: 1721
+      y: 796
+      width: 28
+      height: 43
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Button_TrackDown
+    outer:
+      serializedVersion: 2
+      x: 1580
+      y: 1014
+      width: 67
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 1580
+      y: 1014
+      width: 67
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Button_TrackUp
+    outer:
+      serializedVersion: 2
+      x: 1648
+      y: 1014
+      width: 67
+      height: 35
+    inner:
+      serializedVersion: 2
+      x: 1648
+      y: 1014
+      width: 67
+      height: 35
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Button_Plus
+    outer:
+      serializedVersion: 2
+      x: 1849
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1849
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_TurnAngle
+    outer:
+      serializedVersion: 2
+      x: 1943
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1943
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_MoveTo
+    outer:
+      serializedVersion: 2
+      x: 1978
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1978
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Move
+    outer:
+      serializedVersion: 2
+      x: 2013
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 2013
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_SetAngle
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 755
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 755
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Default
+    outer:
+      serializedVersion: 2
+      x: 1838
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1838
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Scale
+    outer:
+      serializedVersion: 2
+      x: 1873
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1873
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_TurnAngeCCW
+    outer:
+      serializedVersion: 2
+      x: 1908
+      y: 805
+      width: 34
+      height: 34
+    inner:
+      serializedVersion: 2
+      x: 1908
+      y: 805
+      width: 34
+      height: 34
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_STT_MicWave2
+    outer:
+      serializedVersion: 2
+      x: 653
+      y: 598
+      width: 81
+      height: 22
+    inner:
+      serializedVersion: 2
+      x: 653
+      y: 598
+      width: 81
+      height: 22
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_STT_Mic
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 447
+      width: 32
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 447
+      width: 32
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_STT_MicWave1
+    outer:
+      serializedVersion: 2
+      x: 679
+      y: 718
+      width: 63
+      height: 18
+    inner:
+      serializedVersion: 2
+      x: 679
+      y: 718
+      width: 63
+      height: 18
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_STT_MicWave0
+    outer:
+      serializedVersion: 2
+      x: 371
+      y: 701
+      width: 46
+      height: 14
+    inner:
+      serializedVersion: 2
+      x: 371
+      y: 701
+      width: 46
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_Remote_SendMsg
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 477
+      width: 13
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 477
+      width: 13
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_Remote_RecvMsg
+    outer:
+      serializedVersion: 2
+      x: 811
+      y: 445
+      width: 13
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 811
+      y: 445
+      width: 13
+      height: 31
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_Robot_LinkON
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 596
+      width: 111
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 596
+      width: 111
+      height: 118
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Entity_Robot_LinkOFF
+    outer:
+      serializedVersion: 2
+      x: 541
+      y: 596
+      width: 111
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 541
+      y: 596
+      width: 111
+      height: 118
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_UnselectedEraser
+    outer:
+      serializedVersion: 2
+      x: 1221
+      y: 840
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1221
+      y: 840
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_SizeRound
+    outer:
+      serializedVersion: 2
+      x: 1655
+      y: 1053
+      width: 19
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 1655
+      y: 1053
+      width: 19
+      height: 19
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_UnselectedBucket
+    outer:
+      serializedVersion: 2
+      x: 1733
+      y: 901
+      width: 52
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1733
+      y: 901
+      width: 52
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_SelectedEraser
+    outer:
+      serializedVersion: 2
+      x: 1840
+      y: 901
+      width: 52
+      height: 53
+    inner:
+      serializedVersion: 2
+      x: 1840
+      y: 901
+      width: 52
+      height: 53
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_SizeControlBar
+    outer:
+      serializedVersion: 2
+      x: 722
+      y: 390
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 722
+      y: 390
+      width: 17
+      height: 17
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_SelectedBrush
+    outer:
+      serializedVersion: 2
+      x: 1274
+      y: 840
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1274
+      y: 840
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_selectedBucket
+    outer:
+      serializedVersion: 2
+      x: 1893
+      y: 902
+      width: 52
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1893
+      y: 902
+      width: 52
+      height: 52
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_SizeControl Back
+    outer:
+      serializedVersion: 2
+      x: 562
+      y: 731
+      width: 116
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 562
+      y: 731
+      width: 116
+      height: 116
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Button_UnselectedBrush
+    outer:
+      serializedVersion: 2
+      x: 1693
+      y: 841
+      width: 51
+      height: 51
+    inner:
+      serializedVersion: 2
+      x: 1693
+      y: 841
+      width: 51
+      height: 51
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_SizeRound Shadow
+    outer:
+      serializedVersion: 2
+      x: 749
+      y: 12
+      width: 77
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 749
+      y: 12
+      width: 77
+      height: 77
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MotorSetAngle
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 273
+      width: 171
+      height: 170
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 273
+      width: 171
+      height: 170
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_SetAngleY_Base
+    outer:
+      serializedVersion: 2
+      x: 172
+      y: 274
+      width: 170
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 172
+      y: 274
+      width: 170
+      height: 169
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_SetAngleZ_Base
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 103
+      width: 170
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 103
+      width: 170
+      height: 169
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MotorBase
+    outer:
+      serializedVersion: 2
+      x: 532
+      y: 395
+      width: 96
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 532
+      y: 395
+      width: 96
+      height: 96
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_ImageScaleXYZ
+    outer:
+      serializedVersion: 2
+      x: 653
+      y: 621
+      width: 93
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 653
+      y: 621
+      width: 93
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_ImageScaleXY
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 295
+      width: 93
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 295
+      width: 93
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MoveZ
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 101
+      width: 87
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 101
+      width: 87
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MoveToXYZ
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 116
+      width: 87
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 116
+      width: 87
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MoveToXY
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 28
+      width: 87
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 28
+      width: 87
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_LEDGrey
+    outer:
+      serializedVersion: 2
+      x: 608
+      y: 106
+      width: 83
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 608
+      y: 106
+      width: 83
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_LEDBule
+    outer:
+      serializedVersion: 2
+      x: 520
+      y: 18
+      width: 83
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 520
+      y: 18
+      width: 83
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_LEDOrange
+    outer:
+      serializedVersion: 2
+      x: 343
+      y: 276
+      width: 83
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 343
+      y: 276
+      width: 83
+      height: 82
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MotorTurnDirWhite
+    outer:
+      serializedVersion: 2
+      x: 373
+      y: 164
+      width: 29
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 373
+      y: 164
+      width: 29
+      height: 108
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MoveY
+    outer:
+      serializedVersion: 2
+      x: 403
+      y: 185
+      width: 25
+      height: 87
+    inner:
+      serializedVersion: 2
+      x: 403
+      y: 185
+      width: 25
+      height: 87
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_MoveX
+    outer:
+      serializedVersion: 2
+      x: 523
+      y: 298
+      width: 87
+      height: 25
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 298
+      width: 87
+      height: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_TurnZ
+    outer:
+      serializedVersion: 2
+      x: 1307
+      y: 794
+      width: 45
+      height: 45
+    inner:
+      serializedVersion: 2
+      x: 1307
+      y: 794
+      width: 45
+      height: 45
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_TurnY
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 707
+      width: 31
+      height: 65
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 707
+      width: 31
+      height: 65
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_TurnZCW
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 577
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1254
+      y: 577
+      width: 30
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_TurnZCCW
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 606
+      width: 30
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1254
+      y: 606
+      width: 30
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_SetAngleZ_Point
+    outer:
+      serializedVersion: 2
+      x: 1425
+      y: 765
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1425
+      y: 765
+      width: 24
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_SetAngleY_Point
+    outer:
+      serializedVersion: 2
+      x: 1101
+      y: 21
+      width: 24
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 1101
+      y: 21
+      width: 24
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _ActionEditor_Sprite_TurnYCW
+    outer:
+      serializedVersion: 2
+      x: 383
+      y: 528
+      width: 30
+      height: 16
+    inner:
+      serializedVersion: 2
+      x: 383
+      y: 528
+      width: 30
+      height: 16
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Keyboard
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 166
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 166
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Mic
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 129
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 129
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_STT
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 92
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 92
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Android
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 55
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 55
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Camera
+    outer:
+      serializedVersion: 2
+      x: 1126
+      y: 18
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1126
+      y: 18
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Remote
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 196
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 196
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_TTS
+    outer:
+      serializedVersion: 2
+      x: 2005
+      y: 856
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 2005
+      y: 856
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Robot
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 8
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 8
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _DeviceIcon_Kinect
+    outer:
+      serializedVersion: 2
+      x: 1573
+      y: 803
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 1573
+      y: 803
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_LogoHansung
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 696
+      width: 370
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 696
+      width: 370
+      height: 141
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Sprite_LogoReel
+    outer:
+      serializedVersion: 2
+      x: 99
+      y: 9
+      width: 65
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 99
+      y: 9
+      width: 65
+      height: 93
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_White_Round
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 389
+      width: 102
+      height: 102
+    inner:
+      serializedVersion: 2
+      x: 429
+      y: 389
+      width: 102
+      height: 102
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _Common_Painter_Sprite_Background
+    outer:
+      serializedVersion: 2
+      x: 429
+      y: 715
+      width: 132
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 439
+      y: 725
+      width: 112
+      height: 112
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _AboutSiCi_Sprite_MainLogo
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 151
+      width: 201
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 151
+      width: 201
+      height: 121
+    paddingLeft: .0447761193
+    paddingRight: .00995024852
+    paddingTop: .107438013
+    paddingBottom: .0165289249
+  - name: _AboutSiCi_Sprite_LogoInfo
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 2
+      width: 222
+      height: 19
+    inner:
+      serializedVersion: 2
+      x: 171
+      y: 2
+      width: 222
+      height: 19
+    paddingLeft: .0180180185
+    paddingRight: .0135135138
+    paddingTop: .210526317
+    paddingBottom: .157894731
+  - name: _AboutSiCi_Sprite_HansungLogo
+    outer:
+      serializedVersion: 2
+      x: 636
+      y: 554
+      width: 107
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 636
+      y: 554
+      width: 107
+      height: 41
+    paddingLeft: .17757009
+    paddingRight: 0
+    paddingTop: .390243888
+    paddingBottom: .365853667
+  - name: _AboutSiCi_Sprite_ReelLogo
+    outer:
+      serializedVersion: 2
+      x: 1750
+      y: 798
+      width: 29
+      height: 41
+    inner:
+      serializedVersion: 2
+      x: 1750
+      y: 798
+      width: 29
+      height: 41
+    paddingLeft: .068965517
+    paddingRight: .068965517
+    paddingTop: .048780486
+    paddingBottom: 0
+  - name: _Entity_StringVariable_Top
+    outer:
+      serializedVersion: 2
+      x: 1315
+      y: 1061
+      width: 198
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1325
+      y: 1061
+      width: 168
+      height: 32
+    paddingLeft: .00505050505
+    paddingRight: .0101010101
+    paddingTop: .03125
+    paddingBottom: .0625
+  - name: _Entity_StringVariable_Bottom
+    outer:
+      serializedVersion: 2
+      x: 171
+      y: 22
+      width: 248
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 37
+      width: 218
+      height: 27
+    paddingLeft: .0201612897
+    paddingRight: .0241935477
+    paddingTop: .0701754391
+    paddingBottom: .0877192989
+  - name: _BehaviorEditor_Icon_Speed
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 62
+      width: 36
+      height: 36
+    inner:
+      serializedVersion: 2
+      x: 958
+      y: 62
+      width: 36
+      height: 36
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Angle
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 521
+      width: 32
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 521
+      width: 32
+      height: 32
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Size
+    outer:
+      serializedVersion: 2
+      x: 1397
+      y: 762
+      width: 27
+      height: 27
+    inner:
+      serializedVersion: 2
+      x: 1397
+      y: 762
+      width: 27
+      height: 27
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Mirror
+    outer:
+      serializedVersion: 2
+      x: 1254
+      y: 548
+      width: 28
+      height: 28
+    inner:
+      serializedVersion: 2
+      x: 1254
+      y: 548
+      width: 28
+      height: 28
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: _BehaviorEditor_Icon_Led
+    outer:
+      serializedVersion: 2
+      x: 723
+      y: 493
+      width: 25
+      height: 24
+    inner:
+      serializedVersion: 2
+      x: 723
+      y: 493
+      width: 25
+      height: 24
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Button_Sync
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 789
+      width: 50
+      height: 50
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 789
+      width: 50
+      height: 50
+    paddingLeft: .0199999996
+    paddingRight: .0199999996
+    paddingTop: .0199999996
+    paddingBottom: .0199999996
+  - name: Button_Join
+    outer:
+      serializedVersion: 2
+      x: 995
+      y: 1005
+      width: 118
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 995
+      y: 1005
+      width: 118
+      height: 44
+    paddingLeft: .00847457629
+    paddingRight: .00847457629
+    paddingTop: .0227272734
+    paddingBottom: .0454545468
+  - name: Button_Login
+    outer:
+      serializedVersion: 2
+      x: 1114
+      y: 1005
+      width: 117
+      height: 44
+    inner:
+      serializedVersion: 2
+      x: 1114
+      y: 1005
+      width: 117
+      height: 44
+    paddingLeft: .00854700897
+    paddingRight: .0170940179
+    paddingTop: .0227272734
+    paddingBottom: .0454545468
+  - name: _Entity_TextButton_BG_Blue
+    outer:
+      serializedVersion: 2
+      x: 958
+      y: 1
+      width: 25
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 963
+      y: 6
+      width: 15
+      height: 14
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0434782617
+  - name: _Entity_TextButton_BG_Sky
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 489
+      width: 33
+      height: 31
+    inner:
+      serializedVersion: 2
+      x: 1232
+      y: 502
+      width: 8
+      height: 5
+    paddingLeft: .0606060624
+    paddingRight: .0909090936
+    paddingTop: .129032254
+    paddingBottom: .0967741907
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
