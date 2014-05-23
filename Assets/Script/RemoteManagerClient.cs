@@ -36,11 +36,14 @@ public class RemoteManagerClient : MonoBehaviour {
     ArrayList connectionList1 = new ArrayList();
     ArrayList listenlist1;
 
+    const int IMAGE_WIDTH = 80*2;
+    const int IMAGE_HEIGHT = 48*2;
+
     // 영상 변수
     Texture2D texture;
-    byte[] cameraBytes = new byte[11520];
-    byte[] colBytes = new byte[11520];
-    Color32[] cols = new Color32[3840];
+    byte[] cameraBytes = new byte[IMAGE_WIDTH*IMAGE_HEIGHT*3];
+    byte[] colBytes = new byte[IMAGE_WIDTH*IMAGE_HEIGHT*3];
+    Color32[] cols = new Color32[IMAGE_WIDTH*IMAGE_HEIGHT];
     int receiveLine = 0;
     int remainBytes = 0;
 
@@ -109,10 +112,10 @@ public class RemoteManagerClient : MonoBehaviour {
         ShutDown();
         
         // Alpha value 고정
-        for (int i = 0; i < 3840; i++)
+        for (int i = 0; i < IMAGE_WIDTH*IMAGE_HEIGHT; i++)
             cols[i].a = 255;
         
-        texture = new Texture2D(80, 48);
+        texture = new Texture2D(IMAGE_WIDTH, IMAGE_HEIGHT);
         transform.FindChild("Plane").renderer.material.mainTexture = texture;
 
         // Xml Data Load
@@ -309,17 +312,17 @@ public class RemoteManagerClient : MonoBehaviour {
                         receiveLine += read;
 
                         // 영상 정보가 다 받아졌으면
-                        if (receiveLine == 11520)
+                        if (receiveLine == IMAGE_WIDTH*IMAGE_HEIGHT*3)
                         {
                             // 영상을 뿌려준다.
                             int idx = 0;
-                            for (int height = 0; height < 48; height++)
+                            for (int height = 0; height < IMAGE_HEIGHT; height++)
                             {
-                                for (int width = 0; width < 80; width++)
+                                for (int width = 0; width < IMAGE_WIDTH; width++)
                                 {
-                                    cols[height * 80 + width].r = colBytes[idx];
-                                    cols[height * 80 + width].g = colBytes[idx + 1];
-                                    cols[height * 80 + width].b = colBytes[idx + 2];
+                                    cols[height * IMAGE_WIDTH + width].r = colBytes[idx];
+                                    cols[height * IMAGE_WIDTH + width].g = colBytes[idx + 1];
+                                    cols[height * IMAGE_WIDTH + width].b = colBytes[idx + 2];
 
                                     idx += 3;
                                 }
